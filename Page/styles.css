@@ -1,12 +1,9 @@
 .desserts {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    /* 3 items per row, equally spaced */
     gap: 20px;
-    /* Optional: Adds spacing between the grid items */
     justify-content: center;
     padding: 20px;
-    /* Optional: Adds some padding around the grid */
 }
 
 .card {
