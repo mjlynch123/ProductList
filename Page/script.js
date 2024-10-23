@@ -57,6 +57,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 <h2>${dessertItem.dessert}</h2>
                 <p>${dessertItem.category}</p>
                 <p>$${dessertItem.price}</p>
+                <button class="add-to-cart-btn">Add to Cart</button>
             `;
             dessertCards.appendChild(dessertCard);
         });
